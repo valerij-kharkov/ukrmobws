@@ -1,10 +1,7 @@
 
-package model;
+package ua.com.cs.model.ifobswm;
 
-import javax.jws.WebMethod;
-import javax.jws.WebParam;
-import javax.jws.WebResult;
-import javax.jws.WebService;
+import javax.jws.*;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.ws.Action;
 import javax.xml.ws.RequestWrapper;
@@ -32,8 +29,8 @@ public interface WMServiceBean {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "callService", targetNamespace = "http://wm.webservices.ifobs.cs.com/", className = "model.CallService")
-    @ResponseWrapper(localName = "callServiceResponse", targetNamespace = "http://ift.webservices.ifobs.cs.com/", className = "model.CallServiceResponse")
+    @RequestWrapper(localName = "callService", targetNamespace = "http://wm.webservices.ifobs.cs.com/", className = "ua.com.cs.model.ifobswm.CallService")
+    @ResponseWrapper(localName = "callServiceResponse", targetNamespace = "http://ift.webservices.ifobs.cs.com/", className = "ua.com.cs.model.ifobswm.CallServiceResponse")
     @Action(input = "http://wm.webservices.ifobs.cs.com/WMServiceBean/callServiceRequest", output = "http://ift.webservices.ifobs.cs.com/WMServiceBean/callServiceResponse")
     public String callService(
         @WebParam(name = "sWebServiceXML", targetNamespace = "")

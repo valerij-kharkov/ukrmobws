@@ -1,5 +1,7 @@
-import model.WMServiceBean;
-import model.WMServiceBeanService;
+package ua.com.cs;
+
+import ua.com.cs.model.ifobswm.WMServiceBean;
+import ua.com.cs.model.ifobswm.WMServiceBeanService;
 
 /**
  * Created by valeriy_solyanik

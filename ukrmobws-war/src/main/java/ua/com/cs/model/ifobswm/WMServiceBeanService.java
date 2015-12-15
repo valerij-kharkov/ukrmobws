@@ -1,8 +1,9 @@
 
-package model;
+package ua.com.cs.model.ifobswm;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import javax.jws.HandlerChain;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 import javax.xml.ws.WebEndpoint;
@@ -18,6 +19,7 @@ import javax.xml.ws.WebServiceFeature;
  * 
  */
 @WebServiceClient(name = "WMServiceBeanService", targetNamespace = "http://wm.webservices.ifobs.cs.com/", wsdlLocation = "http://localhost:8080/WMService/services/WMService?wsdl")
+@HandlerChain(file= "handlers.xml")
 public class WMServiceBeanService
     extends Service
 {

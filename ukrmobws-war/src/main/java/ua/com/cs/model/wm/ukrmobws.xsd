@@ -1,25 +1,28 @@
 <xsd:schema
-        xmlns="http://csltd.com.ua/personService/person"
-        targetNamespace="http://csltd.com.ua/personService/person"
+        xmlns="http://cs.com.ua/callingService/"
+        targetNamespace="http://cs.com.ua/callingService/"
         xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         elementFormDefault="qualified">
 
-    <xsd:element name="PersonRequest">
-        <xsd:complexType>
-            <xsd:sequence/>
-        </xsd:complexType>
-    </xsd:element>
-
-    <xsd:element name="PersonResponse">
+    <xsd:element name="CallingRequest">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="person" type="Person"
-                             minOccurs="0" maxOccurs="unbounded"/>
+                <xsd:element name="request" type="xsd:string"
+                             minOccurs="1" maxOccurs="1"/>
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
 
-    <xsd:complexType name="Person">
+    <xsd:element name="CallingResponse">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="request" type="xsd:string"
+                             minOccurs="1" maxOccurs="1"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+<!--    <xsd:complexType name="Person">
         <xsd:sequence>
             <xsd:element name="id" type="xsd:long"/>
             <xsd:element name="first-name" type="xsd:string"/>
@@ -58,6 +61,6 @@
                 <xsd:element name="result" type="xsd:string"/>
             </xsd:sequence>
         </xsd:complexType>
-    </xsd:element>
+    </xsd:element>-->
 
 </xsd:schema>

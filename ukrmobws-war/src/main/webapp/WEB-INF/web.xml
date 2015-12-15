@@ -6,13 +6,23 @@
     <display-name>Archetype Created Web Application</display-name>
 
     <servlet>
-        <servlet-name>spring-ws</servlet-name>
+        <servlet-name>ukrmob-ws</servlet-name>
         <servlet-class>org.springframework.ws.transport.http.MessageDispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>
+                /WEB-INF/ukrmob-ws-servlet.xml
+                /WEB-INF/ApplicationContext.xml
+            </param-value>
+        </init-param>
+        <init-param>
+            <param-name>transformWsdlLocations</param-name>
+            <param-value>true</param-value>
+        </init-param>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>spring-ws</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <servlet-name>ukrmob-ws</servlet-name>
+        <url-pattern>/ukrmob-ws/*</url-pattern>
     </servlet-mapping>
-
 </web-app>

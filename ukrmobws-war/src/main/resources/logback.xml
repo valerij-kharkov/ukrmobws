@@ -7,7 +7,7 @@
     </appender>
 
     <appender name="WSLOGFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>/SWS_logs/wsReqAndRes.log</file>
+        <file>/ukrmobws_logs/ReqAndRes.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>/SWS_logs/wsReqAndRes.%d{yyyy-MM-dd}.log</fileNamePattern>
         </rollingPolicy>
@@ -18,7 +18,7 @@
         </encoder>
     </appender>
 
-    <logger name="ua.com.csltd.interceptors.PayloadLoggingInterceptor" level="DEBUG" additivity="true">
+    <logger name="ua.com.csltd.ua.com.cs.interceptors.PayloadLoggingInterceptor" level="DEBUG" additivity="true">
         <appender-ref ref="WSLOGFILE"/>
     </logger>
 

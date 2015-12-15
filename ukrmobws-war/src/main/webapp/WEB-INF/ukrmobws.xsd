@@ -1,0 +1,26 @@
+<xsd:schema
+        xmlns="http://cs.com.ua/callingService/"
+        targetNamespace="http://cs.com.ua/callingService/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        elementFormDefault="qualified">
+
+    <xsd:element name="CallingRequest">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="request" type="xsd:string"
+                             minOccurs="1" maxOccurs="1"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="CallingResponse">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="response" type="xsd:string"
+                             minOccurs="1" maxOccurs="1"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+
+</xsd:schema>
