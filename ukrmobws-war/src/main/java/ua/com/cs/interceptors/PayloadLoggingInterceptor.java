@@ -25,8 +25,9 @@ public class PayloadLoggingInterceptor  extends org.springframework.ws.server.en
 		if (isLogEnabled()) {
 			logMessage("------------START-----------");
 			logMessageSource("Request: ", getSource(messageContext.getRequest()));
+			logMessage("----------------------------");
 			logMessageSource("Response: ", getSource(messageContext.getResponse()));
-			logMessage("------------END-----------");
+			logMessage("-------------END------------");
 		}
 		return true;
 	}

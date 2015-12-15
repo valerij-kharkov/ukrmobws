@@ -1,6 +1,8 @@
 
 package ua.com.cs.model.ifobswm;
 
+import org.springframework.beans.factory.annotation.Value;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 import javax.jws.HandlerChain;
@@ -27,6 +29,8 @@ public class WMServiceBeanService
     private final static URL WMSERVICEBEANSERVICE_WSDL_LOCATION;
     private final static WebServiceException WMSERVICEBEANSERVICE_EXCEPTION;
     private final static QName WMSERVICEBEANSERVICE_QNAME = new QName("http://wm.webservices.ifobs.cs.com/", "WMServiceBeanService");
+    @Value("")
+    private String uri;
 
     static {
         URL url = null;
