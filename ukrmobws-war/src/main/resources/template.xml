@@ -1,0 +1,2207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Parameters>
+    <FirstTxId>1</FirstTxId>
+    <LastTxId>62</LastTxId>
+    <CanContinue>false</CanContinue>
+    <TxCount>32</TxCount>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>1</TxId>
+        <Currency>USD</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>26251010784446</CardAccount>
+            <AccountId>118</AccountId>
+            <CardNo>479751******6756</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>45</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold 2</Type>
+            <CurrencyCode>840</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Visa MTC USD</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>A2BFF0EFD2C8CA5F20F9B7817A0563BD</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>108</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>65</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>3</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>26255180784446</CardAccount>
+            <AccountId>132</AccountId>
+            <CardNo>479751******7333</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>59</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold 2</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Visa MTC UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>A5851C85C68DEA950F2425F826A4F268</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>101</ResponseId>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>108</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>79</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>4</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>26254200784446</CardAccount>
+            <AccountId>133</AccountId>
+            <CardNo>479751******5938</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>60</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold 2</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Visa MTC UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>21DC014336D57459D1D0498D6F7FB843</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>108</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>80</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>6</TxId>
+        <Currency>EUR</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>26253160784446</CardAccount>
+            <AccountId>135</AccountId>
+            <CardNo>533194******4718</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>62</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>978</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>MC Reword EUR</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>CF602E623F4CF415308888A8BA77D2F4</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>82</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>9.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>7</TxId>
+        <Currency>EUR</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>26250260784446</CardAccount>
+            <AccountId>137</AccountId>
+            <CardNo>533194******2976</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>64</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>978</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>MC Reword EUR</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>AE19359E143177C7432AE888138C090F</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>84</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>8</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-05-2018</EndDate>
+            <CardAccount>26253320784446</CardAccount>
+            <AccountId>169</AccountId>
+            <CardNo>410337******0017</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>83</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Visa Gold OTP Staff</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>9F296A53EA9D8E9B9F8DB33CF2322065</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion/>
+            <CanUnblock/>
+            <ContractNumber>87</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>9</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-05-2018</EndDate>
+            <CardAccount>26254330784446</CardAccount>
+            <AccountId>173</AccountId>
+            <CardNo>479751******1116</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>84</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold 2</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Visa MTC UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>4626220768566CD3D11AD8D04E2B9F5E</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>108</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>88</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>10</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-05-2018</EndDate>
+            <CardAccount>26256480784446</CardAccount>
+            <AccountId>191</AccountId>
+            <CardNo>533194******0065</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>96</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>MC Shell Cr Line UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>2A15AE35A06E05A1F78810E2EBC2A92B</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>119</ResponseId>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>100</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>10.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>13</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>26257070784446</CardAccount>
+            <AccountId>130</AccountId>
+            <CardNo>479751******3562</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>57</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold 2</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Visa MTC UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>0A6245336F2387051481A97FADC2FD75</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>108</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>77</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>2.22</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>14</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>2625606078444</CardAccount>
+            <AccountId>127</AccountId>
+            <CardNo>479751******0579</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>54</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold 2</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Visa MTC UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>2292DF80034B59E2FA8E67B8D79E4F54</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>108</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>74</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>15</TxId>
+        <Currency>USD</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>26252020784446</CardAccount>
+            <AccountId>129</AccountId>
+            <CardNo>479751******7209</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>56</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold 2</Type>
+            <CurrencyCode>840</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Visa MTC USD</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>2EE3E5591645506A66455F442A6E56BB</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>108</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>76</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>16</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>26258080784446</CardAccount>
+            <AccountId>131</AccountId>
+            <CardNo>479751******5827</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>58</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold 2</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Visa MTC UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>1B1BA99E54D380D99B315992769EC0CD</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>108</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>78</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>17</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-05-2018</EndDate>
+            <CardAccount>26251300784446</CardAccount>
+            <AccountId>138</AccountId>
+            <CardNo>533194******0040</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>65</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>MC Shell UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>6818166815C84FCCEEE9E96EAA7BEF94</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>85</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>18</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-05-2018</EndDate>
+            <CardAccount>26251300784446</CardAccount>
+            <AccountId>138</AccountId>
+            <CardNo>533194******0024</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>65</ContractId>
+            <IsPrimary>false</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>MC Shell UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>A6EAE76228C3D68741924F562F8FE353</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>85</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>19</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-04-2018</EndDate>
+            <CardAccount>26251300784446</CardAccount>
+            <AccountId>138</AccountId>
+            <CardNo>533194******0016</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>65</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>MC Shell UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>63F4172AE4F8567749F8B667BCB61DFF</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>85</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>20</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-05-2018</EndDate>
+            <CardAccount>26251300784446</CardAccount>
+            <AccountId>138</AccountId>
+            <CardNo>533194******0032</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>65</ContractId>
+            <IsPrimary>false</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>MC Shell UAH</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>3C13B4FB0C8DD82C81A983065888BCEF</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>85</ContractNumber>
+            <EnrolledDate>11-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>24</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-08-2018</EndDate>
+            <CardAccount>2625700000221</CardAccount>
+            <AccountId>25787</AccountId>
+            <CardNo>510093******0127</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>25445</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard Standard</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Зарплатна карта MC M</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>7EAF70CB0A17321282A9C693390D1D6B</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>106</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>25057315</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>26</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-06-2018</EndDate>
+            <CardAccount>26255500784446</CardAccount>
+            <AccountId>703</AccountId>
+            <CardNo>410337******0124</CardNo>
+            <Contract/>
+            <EmbossedName>STUZHUK OLENA</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>600</ContractId>
+            <IsPrimary>false</IsPrimary>
+            <Type>VISA Gold</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Зарплатна картка VIS</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>FC1E577A090B1040CACEB1B28D306C6D</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion/>
+            <CanUnblock/>
+            <ContractNumber>600</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>27</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-06-2018</EndDate>
+            <CardAccount>26255500784446</CardAccount>
+            <AccountId>703</AccountId>
+            <CardNo>410337******0074</CardNo>
+            <Contract/>
+            <EmbossedName>STUZHUK OLENA</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>600</ContractId>
+            <IsPrimary>false</IsPrimary>
+            <Type>VISA Gold</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Зарплатна картка VIS</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>6226787205C5A8A815FF2D2561874832</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion/>
+            <CanUnblock/>
+            <ContractNumber>600</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>32</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-06-2018</EndDate>
+            <CardAccount>26255500784446</CardAccount>
+            <AccountId>703</AccountId>
+            <CardNo>410337******0058</CardNo>
+            <Contract/>
+            <EmbossedName>STUZHUK OLENA</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>600</ContractId>
+            <IsPrimary>false</IsPrimary>
+            <Type>VISA Gold</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Зарплатна картка VIS</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>581631BF9944EC10347ECB2C6B72A65F</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion/>
+            <CanUnblock/>
+            <ContractNumber>600</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>35</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-06-2018</EndDate>
+            <CardAccount>26255500784446</CardAccount>
+            <AccountId>703</AccountId>
+            <CardNo>410337******0090</CardNo>
+            <Contract/>
+            <EmbossedName>STUZHUK OLENA</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>600</ContractId>
+            <IsPrimary>false</IsPrimary>
+            <Type>VISA Gold</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Зарплатна картка VIS</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>B56F136F9204C6CC39DCA86127BDDB12</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion/>
+            <CanUnblock/>
+            <ContractNumber>600</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>39</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-06-2018</EndDate>
+            <CardAccount>26250710784446</CardAccount>
+            <AccountId>723</AccountId>
+            <CardNo>410337******0132</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>620</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Зарплатна картка VIS</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>AEBC306189898BFF06262DB392D279A4</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion/>
+            <CanUnblock/>
+            <ContractNumber>620</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>45</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>30-06-2018</EndDate>
+            <CardAccount>26256770784446</CardAccount>
+            <AccountId>747</AccountId>
+            <CardNo>510093******0014</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>642</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard Standard</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Дебетна карта MC (OL</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>45F319702D42D0B930B7289D3B040350</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion>106</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>642</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>47</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-07-2018</EndDate>
+            <CardAccount>26258790784446</CardAccount>
+            <AccountId>780</AccountId>
+            <CardNo>533194******0044</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>675</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Дебетна карта SHELL</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>EEA5D321643B04B5D9AA7B7852DC3304</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>675</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>53</TxId>
+        <Currency>EUR</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-07-2018</EndDate>
+            <CardAccount>26252280784446</CardAccount>
+            <AccountId>792</AccountId>
+            <CardNo>533194******0041</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>687</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>978</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Дебетна карта SHELL</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>D4338C7182807F4285828414FE8BC5F4</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>687</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>54</TxId>
+        <Currency>EUR</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-07-2018</EndDate>
+            <CardAccount>26253290784446</CardAccount>
+            <AccountId>793</AccountId>
+            <CardNo>533194******0058</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>688</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>978</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Дебетна карта SHELL</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>A6B34DF5B891DBD0B56DBC016907CD66</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>688</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>55</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-07-2018</EndDate>
+            <CardAccount>26251850784446</CardAccount>
+            <AccountId>794</AccountId>
+            <CardNo>533194******0093</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>689</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Дебетна карта SHELL</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>2FA9B8839C3E80034948794EB96F5ABA</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>689</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>56</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-07-2018</EndDate>
+            <CardAccount>26252860784446</CardAccount>
+            <AccountId>796</AccountId>
+            <CardNo>533194******0101</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>691</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Дебетна карта SHELL</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>1D77BC5F820974CC86DFBAE4E51BC398</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>691</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>59</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-07-2018</EndDate>
+            <CardAccount>26258950784446</CardAccount>
+            <AccountId>821</AccountId>
+            <CardNo>533194******0127</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>716</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Дебетна карта SHELL</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>ADE95DAABE6C80CBE8C5CAD63653F30F</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>716</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>60</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-07-2018</EndDate>
+            <CardAccount>26259960784446</CardAccount>
+            <AccountId>823</AccountId>
+            <CardNo>533194******0135</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>718</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Дебетна карта SHELL</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>4E3A80DA57BC8B25D3F814EE082E8B81</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>1</SoftStopList>
+            <ResponseId>100</ResponseId>
+            <SwitchStatus>CANUNBLOCKCARD</SwitchStatus>
+            <ShowCard>true</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>718</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>61</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-07-2018</EndDate>
+            <CardAccount>26251980784446</CardAccount>
+            <AccountId>831</AccountId>
+            <CardNo>533194******0143</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>726</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>MasterCard World</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Дебетна карта SHELL</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>62346EAF8EDF4DC00BB32B27BB8C0178</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion>104</PictureVersion>
+            <CanUnblock/>
+            <ContractNumber>726</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+    <AccountDetails>
+        <Balances>
+            <Ledger>0.00</Ledger>
+            <Available/>
+            <ProjectedLedger>0.00</ProjectedLedger>
+            <OverdraftLimit>0.00</OverdraftLimit>
+            <Moved/>
+            <ActualizedTime/>
+        </Balances>
+        <Type>CARD</Type>
+        <OwnerName>МАЛІНІН ІГОР</OwnerName>
+        <OwnerAddress/>
+        <Status/>
+        <Access/>
+        <TxId>62</TxId>
+        <Currency>UAH</Currency>
+        <BranchId>300528</BranchId>
+        <AccountName/>
+        <Card>
+            <EndDate>31-07-2018</EndDate>
+            <CardAccount>26252990784446</CardAccount>
+            <AccountId>840</AccountId>
+            <CardNo>410337******0553</CardNo>
+            <Contract/>
+            <EmbossedName>IGOR MALININ</EmbossedName>
+            <State>BLOCKED</State>
+            <ContractId>735</ContractId>
+            <IsPrimary>true</IsPrimary>
+            <Type>VISA Gold</Type>
+            <CurrencyCode>980</CurrencyCode>
+            <Alarmed>0</Alarmed>
+            <OwnerIdentifyCode/>
+            <BranchDesc>АТ "ОТП Банк"</BranchDesc>
+            <CardName/>
+            <TempLimitId/>
+            <TempLimitFrom/>
+            <TempLimitTill/>
+            <TempLimitName/>
+            <MainLimitName>Зарплатна картка VIS</MainLimitName>
+            <SavingAccountNo/>
+            <CardId>CA7A9F32462F87C8FE5736C92A41F6B4</CardId>
+            <CardStateId>29</CardStateId>
+            <SoftStopList>0</SoftStopList>
+            <ResponseId/>
+            <SwitchStatus/>
+            <ShowCard>false</ShowCard>
+            <PictureVersion/>
+            <CanUnblock/>
+            <ContractNumber>735</ContractNumber>
+            <EnrolledDate>12-03-2014</EnrolledDate>
+            <DisplayOrder>0</DisplayOrder>
+        </Card>
+    </AccountDetails>
+</Parameters>
+
+
+<Response
+xmlns="http://cs.com.ua/callingService/">\n  <SenderInfo>\n<SessionInfo id=\"123429\"/>\n
+</SenderInfo>\n  <StatusBlock>\n<Status>OK</Status>\n
+</StatusBlock>\n  <Parameters
+xsi:type=\"CardListResponseParametersType\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <FirstTxId>2
+</FirstTxId>\n    <LastTxId>58</LastTxId>\n    <CanContinue>false</CanContinue>\n    <TxCount>29
+</TxCount>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>2</TxId>\n
+<Currency>EUR</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-04-2018</EndDate>\n<CardAccount>26258080784446</CardAccount>\n<AccountId>119</AccountId>\n<CardNo>
+    533194******1609</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>46</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        978</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>MC Reword
+        EUR</MainLimitName>\n<SavingAccountNo/>\n<CardId>7F8311E8C4B6C557B28668C41495F5E7</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>66</ContractNumber>
+    \n<EnrolledDate>11-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>43067.35</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>5</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-04-2018</EndDate>\n<CardAccount>26255210784446</CardAccount>\n<AccountId>134</AccountId>\n<CardNo>
+    479751******9888</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>61</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>VISA Gold 2</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName>виза с
+        деньгами</CardName>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Visa
+        MTC UAH</MainLimitName>\n<SavingAccountNo/>\n<CardId>99BCFC08943E13AFCF298625895F3A96</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>108</PictureVersion>\n<CanUnblock/>\n<ContractNumber>81</ContractNumber>
+    \n<EnrolledDate>11-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>1000000141.11</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>11</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-04-2018</EndDate>\n<CardAccount>26251010784446</CardAccount>\n<AccountId>117</AccountId>\n<CardNo>
+    528534******2052</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>44</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard Standart 2</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName>ЛЯМ-КАРТА</CardName>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n
+    <MainLimitName>X-sell</MainLimitName>\n<SavingAccountNo/>\n<CardId>D8673571CDC8AF3A333D2FAB7E4411A0</CardId>\n
+    <CardStateId>0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>
+        CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n<PictureVersion/>\n<CanUnblock/>\n<ContractNumber>
+        64</ContractNumber>\n<EnrolledDate>11-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>12</TxId>\n
+<Currency>EUR</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-04-2018</EndDate>\n<CardAccount>26252150784446</CardAccount>\n<AccountId>126</AccountId>\n<CardNo>
+    533194******6326</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>53</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        978</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>MC Reword
+        EUR</MainLimitName>\n<SavingAccountNo/>\n<CardId>D11E411F941685FA3C259AD2D49C35AB</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>73</ContractNumber>
+    \n<EnrolledDate>11-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>22</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-05-2018</EndDate>\n<CardAccount>26252310784446</CardAccount>\n<AccountId>139</AccountId>\n<CardNo>
+    510093******0047</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>66</ContractId>\n<IsPrimary>false</IsPrimary>\n<Type>MasterCard Standard</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Deposit 24-7
+        UAH</MainLimitName>\n<SavingAccountNo/>\n<CardId>C4DEFB5C4F1BC2112595FFFFE6DC32A4</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>106</PictureVersion>\n<CanUnblock/>\n<ContractNumber>86</ContractNumber>
+    \n<EnrolledDate>11-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>23</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-05-2018</EndDate>\n<CardAccount>26255470784446</CardAccount>\n<AccountId>190</AccountId>\n<CardNo>
+    533194******0057</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>95</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>MC Shell Cr Line
+        UAH</MainLimitName>\n<SavingAccountNo/>\n<CardId>39581A8A70AA524BFB43EB6E9E21EB0A</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>99</ContractNumber>
+    \n<EnrolledDate>11-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>25</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26255500784446</CardAccount>\n<AccountId>703</AccountId>\n<CardNo>
+    410337******0041</CardNo>\n<Contract/>\n<EmbossedName>STUZHUK OLENA</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>600</ContractId>\n<IsPrimary>false</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName/>\n<TempLimitId/>
+    \n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна картка VIS</MainLimitName>\n
+    <SavingAccountNo/>\n<CardId>4F93228AF5A13746EE681950824FCA6C</CardId>\n<CardStateId>0</CardStateId>\n<SoftStopList>
+        0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n
+    <PictureVersion/>\n<CanUnblock/>\n<ContractNumber>600</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n
+    <DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>28</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26255500784446</CardAccount>\n<AccountId>703</AccountId>\n<CardNo>
+    410337******0082</CardNo>\n<Contract/>\n<EmbossedName>STUZHUK OLENA</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>600</ContractId>\n<IsPrimary>false</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName/>\n<TempLimitId/>
+    \n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна картка VIS</MainLimitName>\n
+    <SavingAccountNo/>\n<CardId>69EC6FFFCB6F73609598C74F75C592FA</CardId>\n<CardStateId>0</CardStateId>\n<SoftStopList>
+        0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n
+    <PictureVersion/>\n<CanUnblock/>\n<ContractNumber>600</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n
+    <DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>29</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26255500784446</CardAccount>\n<AccountId>703</AccountId>\n<CardNo>
+    410337******0116</CardNo>\n<Contract/>\n<EmbossedName>STUZHUK OLENA</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>600</ContractId>\n<IsPrimary>false</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName/>\n<TempLimitId/>
+    \n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна картка VIS</MainLimitName>\n
+    <SavingAccountNo/>\n<CardId>86B4FB49751C4FC9B46F7A02EB5C70E2</CardId>\n<CardStateId>0</CardStateId>\n<SoftStopList>
+        0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n
+    <PictureVersion/>\n<CanUnblock/>\n<ContractNumber>600</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n
+    <DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>30</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26255500784446</CardAccount>\n<AccountId>703</AccountId>\n<CardNo>
+    410337******0108</CardNo>\n<Contract/>\n<EmbossedName>STUZHUK OLENA</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>600</ContractId>\n<IsPrimary>false</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName/>\n<TempLimitId/>
+    \n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна картка VIS</MainLimitName>\n
+    <SavingAccountNo/>\n<CardId>5E4047881960C11CDF15F384DA7B1542</CardId>\n<CardStateId>0</CardStateId>\n<SoftStopList>
+        0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n
+    <PictureVersion/>\n<CanUnblock/>\n<ContractNumber>600</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n
+    <DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>31</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26255500784446</CardAccount>\n<AccountId>703</AccountId>\n<CardNo>
+    410337******0066</CardNo>\n<Contract/>\n<EmbossedName>STUZHUK OLENA</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>600</ContractId>\n<IsPrimary>false</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName/>\n<TempLimitId/>
+    \n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна картка VIS</MainLimitName>\n
+    <SavingAccountNo/>\n<CardId>14E2480F65CB913BBDB0198AC310A0CD</CardId>\n<CardStateId>0</CardStateId>\n<SoftStopList>
+        0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n
+    <PictureVersion/>\n<CanUnblock/>\n<ContractNumber>600</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n
+    <DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>33</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26255500784446</CardAccount>\n<AccountId>703</AccountId>\n<CardNo>
+    410337******0033</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>600</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName>
+        Понтоголд</CardName>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>
+        Зарплатна картка VIS</MainLimitName>\n<SavingAccountNo/>\n<CardId>DFCA8FC33236BE592BAA9EF4FADFDAB0</CardId>\n
+    <CardStateId>0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>
+        CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n<PictureVersion/>\n<CanUnblock/>\n<ContractNumber>
+        600</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>34</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26255500784446</CardAccount>\n<AccountId>703</AccountId>\n<CardNo>
+    410337******0264</CardNo>\n<Contract/>\n<EmbossedName>STUZHUK OLENA</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>600</ContractId>\n<IsPrimary>false</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName/>\n<TempLimitId/>
+    \n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна картка VIS</MainLimitName>\n
+    <SavingAccountNo/>\n<CardId>CCDB954D9AB2FC0A96355A46A57D0830</CardId>\n<CardStateId>0</CardStateId>\n<SoftStopList>
+        0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n
+    <PictureVersion/>\n<CanUnblock/>\n<ContractNumber>600</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n
+    <DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>36</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26252570784446</CardAccount>\n<AccountId>704</AccountId>\n<CardNo>
+    533194******0010</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>601</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        SHELL</MainLimitName>\n<SavingAccountNo/>\n<CardId>E4697FD3B3250F22169885CF6B0C3584</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>601</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>37</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26252570784446</CardAccount>\n<AccountId>704</AccountId>\n<CardNo>
+    533194*****0002</CardNo>\n<Contract/>\n<EmbossedName>STUZHUK OLENA</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>601</ContractId>\n<IsPrimary>false</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        SHELL</MainLimitName>\n<SavingAccountNo/>\n<CardId>5399DD438E5B8BC11C054ED4B67FBC76</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>601</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>38</TxId>\n
+<Currency>USD</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26255050784446</CardAccount>\n<AccountId>705</AccountId>\n<CardNo>
+    510093******0018</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>602</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard Standard</Type>\n<CurrencyCode>
+        840</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        депози</MainLimitName>\n<SavingAccountNo/>\n<CardId>A1E56168161398D44856E6099C4960C6</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>106</PictureVersion>\n<CanUnblock/>\n<ContractNumber>602</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>40</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26251720784446</CardAccount>\n<AccountId>725</AccountId>\n<CardNo>
+    410337******0157</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>622</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName/>\n<TempLimitId/>
+    \n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна картка VIS</MainLimitName>\n
+    <SavingAccountNo/>\n<CardId>A3BB56297638107A9526B2404068658A</CardId>\n<CardStateId>0</CardStateId>\n<SoftStopList>
+        0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n
+    <PictureVersion/>\n<CanUnblock/>\n<ContractNumber>622</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n
+    <DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>41</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26252730784446</CardAccount>\n<AccountId>726</AccountId>\n<CardNo>
+    410337******0165</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>623</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName/>\n<TempLimitId/>
+    \n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна картка VIS</MainLimitName>\n
+    <SavingAccountNo/>\n<CardId>863E086BFA99B95F4234C80EC5ACF390</CardId>\n<CardStateId>0</CardStateId>\n<SoftStopList>
+        0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n
+    <PictureVersion/>\n<CanUnblock/>\n<ContractNumber>623</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n
+    <DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>42</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26254750784446</CardAccount>\n<AccountId>729</AccountId>\n<CardNo>
+    510093******0018</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>624</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard Standard</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна карта MC
+        O</MainLimitName>\n<SavingAccountNo/>\n<CardId>9A639961042946622F417EB3BAC59066</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>106</PictureVersion>\n<CanUnblock/>\n<ContractNumber>624</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>43</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26255760784446</CardAccount>\n<AccountId>738</AccountId>\n<CardNo>
+    436323******0014</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>633</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>VISA Platinum</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта Visa
+        P</MainLimitName>\n<SavingAccountNo/>\n<CardId>E2C82FC09FC222CF726F2785215FA2C8</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion/>\n<CanUnblock/>\n<ContractNumber>633</ContractNumber>\n<EnrolledDate>
+        12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>44</TxId>\n
+<Currency>USD</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>30-06-2018</EndDate>\n<CardAccount>26256060784446</CardAccount>\n<AccountId>739</AccountId>\n<CardNo>
+    436323******0019</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>634</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>VISA Platinum</Type>\n<CurrencyCode>
+        840</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта Visa
+        P</MainLimitName>\n<SavingAccountNo/>\n<CardId>F0828CBBC5C2DBE2E9E2B13A5CBE1028</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion/>\n<CanUnblock/>\n<ContractNumber>634</ContractNumber>\n<EnrolledDate>
+        12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>46</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-07-2018</EndDate>\n<CardAccount>26257780784446</CardAccount>\n<AccountId>778</AccountId>\n<CardNo>
+    533194******0036</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>673</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        SHELL</MainLimitName>\n<SavingAccountNo/>\n<CardId>FD0B5884E6FB90DAA858686E8159E440</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>673</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>48</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-07-2018</EndDate>\n<CardAccount>26256800784446</CardAccount>\n<AccountId>782</AccountId>\n<CardNo>
+    533194******0051</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>677</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        SHELL</MainLimitName>\n<SavingAccountNo/>\n<CardId>02602C42088D3BB10E51579CBF3A97FA</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>677</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>49</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-07-2018</EndDate>\n<CardAccount>26257810784446</CardAccount>\n<AccountId>783</AccountId>\n<CardNo>
+    533194******0069</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>678</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        SHELL</MainLimitName>\n<SavingAccountNo/>\n<CardId>B5B80388D0D0F5308B558E5EFAF9ACBD</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>678</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>50</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-07-2018</EndDate>\n<CardAccount>26258820784446</CardAccount>\n<AccountId>789</AccountId>\n<CardNo>
+    533194******0077</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>684</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        SHELL</MainLimitName>\n<SavingAccountNo/>\n<CardId>534BAE5C36835F8EC233B3CEF77BECA7</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>684</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>51</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-07-2018</EndDate>\n<CardAccount>26259830784446</CardAccount>\n<AccountId>790</AccountId>\n<CardNo>
+    533194******0033</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>685</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        SHELL</MainLimitName>\n<SavingAccountNo/>\n<CardId>75A3D0A456F05DF52F82C1E911C4AAA2</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>685</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>52</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-07-2018</EndDate>\n<CardAccount>26250840784446</CardAccount>\n<AccountId>791</AccountId>\n<CardNo>
+    533194******0085</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>686</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        SHELL</MainLimitName>\n<SavingAccountNo/>\n<CardId>E78C9A1E749D444FFB45675B1325E781</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>686</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>57</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-07-2018</EndDate>\n<CardAccount>26253870784446</CardAccount>\n<AccountId>797</AccountId>\n<CardNo>
+    410337******0454</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>692</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>VISA Gold</Type>\n<CurrencyCode>980</CurrencyCode>
+    \n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n<CardName/>\n<TempLimitId/>
+    \n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Зарплатна картка VIS</MainLimitName>\n
+    <SavingAccountNo/>\n<CardId>26D0AA5E730FCB7173922A30B4FA2877</CardId>\n<CardStateId>0</CardStateId>\n<SoftStopList>
+        0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n<ShowCard>true</ShowCard>\n
+    <PictureVersion/>\n<CanUnblock/>\n<ContractNumber>692</ContractNumber>\n<EnrolledDate>12-03-2014</EnrolledDate>\n
+    <DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n    <AccountDetails>\n
+<Balances>\n<Ledger>0.00</Ledger>\n<Available/>\n<ProjectedLedger>0.00</ProjectedLedger>\n<OverdraftLimit>
+    0.00</OverdraftLimit>\n<Moved/>\n<ActualizedTime/>\n
+</Balances>
+\n<Type>CARD</Type>\n<OwnerName>МАЛІНІН ІГОР</OwnerName>\n<OwnerAddress/>\n<Status/>\n<Access/>\n<TxId>58</TxId>\n
+<Currency>UAH</Currency>\n<BranchId>300528</BranchId>\n<AccountName/>\n
+<Card>\n<EndDate>31-07-2018</EndDate>\n<CardAccount>26255920784446</CardAccount>\n<AccountId>804</AccountId>\n<CardNo>
+    533194******0119</CardNo>\n<Contract/>\n<EmbossedName>IGOR MALININ</EmbossedName>\n<State>ACTIVE</State>\n
+    <ContractId>699</ContractId>\n<IsPrimary>true</IsPrimary>\n<Type>MasterCard World</Type>\n<CurrencyCode>
+        980</CurrencyCode>\n<Alarmed>0</Alarmed>\n<OwnerIdentifyCode/>\n<BranchDesc>АТ \"ОТП Банк\"</BranchDesc>\n
+    <CardName/>\n<TempLimitId/>\n<TempLimitFrom/>\n<TempLimitTill/>\n<TempLimitName/>\n<MainLimitName>Дебетна карта
+        SHELL</MainLimitName>\n<SavingAccountNo/>\n<CardId>398D686B355774805C12AEE8DE9E08B2</CardId>\n<CardStateId>
+        0</CardStateId>\n<SoftStopList>0</SoftStopList>\n<ResponseId/>\n<SwitchStatus>CANBLOCKCARD</SwitchStatus>\n
+    <ShowCard>true</ShowCard>\n<PictureVersion>104</PictureVersion>\n<CanUnblock/>\n<ContractNumber>699</ContractNumber>
+    \n<EnrolledDate>12-03-2014</EnrolledDate>\n<DisplayOrder>0</DisplayOrder>\n
+</Card>
+\n
+</AccountDetails>\n  </Parameters>\n</Response>\n"

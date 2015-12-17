@@ -1,24 +1,23 @@
 
-package ua.com.cs.model.wm;
+package ua.com.cs.model.wm.request;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Java class for AuthInfoType complex type.
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType>
+ * &lt;complexType name="AuthInfoType">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="request" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="User" type="{http://cs.com.ua/callingService/}UserType"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -28,37 +27,36 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "request"
+@XmlType(name = "AuthInfoType", propOrder = {
+    "user"
 })
-@XmlRootElement(name = "CallingRequest")
-public class CallingRequest {
+public class AuthInfoType {
 
-    @XmlElement(required = true)
-    protected String request;
+    @XmlElement(name = "User", required = true)
+    protected UserType user;
 
     /**
-     * Gets the value of the request property.
+     * Gets the value of the user property.
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link UserType }
      *     
      */
-    public String getRequest() {
-        return request;
+    public UserType getUser() {
+        return user;
     }
 
     /**
-     * Sets the value of the request property.
+     * Sets the value of the user property.
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link UserType }
      *     
      */
-    public void setRequest(String value) {
-        this.request = value;
+    public void setUser(UserType value) {
+        this.user = value;
     }
 
 }

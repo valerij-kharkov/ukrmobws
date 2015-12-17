@@ -22,10 +22,11 @@
             <property name="schemas">
                 <list>
                     <value>/WEB-INF/ukrmobws.xsd</value>
+                    <value>/WEB-INF/ukrmobws-response.xsd</value>
                 </list>
             </property>
             <property name="validateRequest" value="true"/>
-            <property name="validateResponse" value="true"/>
+            <property name="validateResponse" value="false"/>
         </bean>
     </sws:interceptors>
 

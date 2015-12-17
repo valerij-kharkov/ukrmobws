@@ -1,5 +1,5 @@
 
-package ua.com.cs.model.wm;
+package ua.com.cs.model.wm.response;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
