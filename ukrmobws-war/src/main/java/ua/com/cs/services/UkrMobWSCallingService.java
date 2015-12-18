@@ -3,20 +3,18 @@ package ua.com.cs.services;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.stereotype.Service;
-import org.springframework.xml.transform.StringSource;
 import ua.com.cs.helpers.Base64;
+import ua.com.cs.helpers.XMLAndMarshallerHelper;
 import ua.com.cs.helpers.ZipHelper;
 import ua.com.cs.model.ifobswm.WMServiceBean;
 import ua.com.cs.model.ifobswm.WMServiceBeanService;
 import ua.com.cs.model.wm.request.CallingRequest;
 import ua.com.cs.model.wm.request.CardListRequest;
+import ua.com.cs.model.wm.request.IFOBSWebServicePacket;
 import ua.com.cs.model.wm.response.CallingResponse;
 import ua.com.cs.model.wm.response.Response;
 
-import javax.xml.transform.stream.StreamResult;
-import java.io.StringWriter;
 import java.net.URL;
 
 /**
@@ -32,8 +30,9 @@ public class UkrMobWSCallingService {
 	private String wsdlUrl;
 
 	@Autowired
-	private Jaxb2Marshaller jaxb2Marshaller;
+	private XMLAndMarshallerHelper xmlAndMarshallerHelper;
 
+	//Для вызова мобильных сервисов по старинке  - через строку
 	public CallingResponse callStringXML(CallingRequest request) {
 		CallingResponse callingResponse = new CallingResponse();
 		try {
@@ -56,47 +55,37 @@ public class UkrMobWSCallingService {
 		return callingResponse;
 	}
 
+	//Для вызова сервиса CardList
 	public Response callCardList(CardListRequest request) {
+		String responseParameterValue = "CardListResponseParametersType";
+		return call(request, responseParameterValue);
+	}
+
+	private Response call(IFOBSWebServicePacket request, String responseParameterValue) {
 		Response callingResponse = new Response();
 		try {
 			String encodedRequest;
 			String decodedResponse;
 
-			StringWriter sw = new StringWriter();
-			jaxb2Marshaller.marshal(request, new StreamResult(sw));
-
-			String requestToTrim = sw.toString();
-			int from = requestToTrim.indexOf("<iFOBSWebServicePacket");
-			int to = requestToTrim.lastIndexOf("iFOBSWebServicePacket>") + "iFOBSWebServicePacket>".length();
-			requestToTrim = requestToTrim.substring(from, to);
+			String requestAsString = xmlAndMarshallerHelper.getRequestAsString(request);
 
 			ZipHelper zip = new ZipHelper(JAVA_ENCODING);
-			encodedRequest = new String(Base64.encode(zip.CompressGZIP(requestToTrim)), JAVA_ENCODING);
+			encodedRequest = new String(Base64.encode(zip.CompressGZIP(requestAsString)), JAVA_ENCODING);
 
 			WMServiceBeanService service = new WMServiceBeanService(new URL(wsdlUrl));
 			WMServiceBean wmServiceBean = service.getWMServiceBeanPort();
 			String response = wmServiceBean.callService(encodedRequest);
+
 			decodedResponse = zip.DecompressGZIP(Base64.decode(response.getBytes(JAVA_ENCODING)));
 
-			int positionResponse = decodedResponse.indexOf("Response") + "Response".length();
-			String firstPartResponse = decodedResponse.substring(0, positionResponse);
-			String secondPartResponse = decodedResponse.substring(positionResponse);
-			decodedResponse = firstPartResponse + " xmlns=\"http://cs.com.ua/callingService/\"" + secondPartResponse;
+			decodedResponse = xmlAndMarshallerHelper.getModifiyedResponseAsXML(decodedResponse, responseParameterValue);
 
-			int positionParam = decodedResponse.indexOf("Parameters");
-			if (positionParam > 0) {
-				positionParam = positionParam + "Parameters".length();
-				String firstPartParam = decodedResponse.substring(0, positionParam);
-				String secondPartParam = decodedResponse.substring(positionParam);
-				decodedResponse = firstPartParam + " xsi:type=\"CardListResponseParametersType\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"" + secondPartParam;
-
-			}
-
-			callingResponse = (Response) jaxb2Marshaller.unmarshal(new StringSource(decodedResponse));
-
+			callingResponse = (Response) xmlAndMarshallerHelper.unmarshal(decodedResponse);
 		} catch (Exception e) {
 			logger.error("Error during call ifobs ukrainian WM", e);
 		}
+
 		return callingResponse;
 	}
+
 }

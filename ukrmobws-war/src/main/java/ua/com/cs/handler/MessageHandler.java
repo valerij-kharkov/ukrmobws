@@ -46,7 +46,7 @@ public class MessageHandler implements SOAPHandler<SOAPMessageContext> {
 					}
 				}
 			} catch (SOAPException e) {
-				logger.error("Inbound handle error:", e);
+				logger.error("Outbound handle error:", e);
 			}
 		}
 

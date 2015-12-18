@@ -23,6 +23,6 @@
 
     <servlet-mapping>
         <servlet-name>ukrmob-ws</servlet-name>
-        <url-pattern>/ukrmob-ws/*</url-pattern>
+        <url-pattern>/ukrmobws/*</url-pattern>
     </servlet-mapping>
 </web-app>
