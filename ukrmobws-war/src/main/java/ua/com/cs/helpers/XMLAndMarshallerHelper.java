@@ -3,13 +3,9 @@ package ua.com.cs.helpers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.stereotype.Service;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+import org.w3c.dom.*;
 import org.xml.sax.InputSource;
 import ua.com.cs.model.wm.request.IFOBSWebServicePacket;
-import ua.com.cs.model.wm.request.IFOBSWebServicePacketType;
-import ua.com.cs.services.AbstractResponseParameterGetter;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -57,12 +53,14 @@ public class XMLAndMarshallerHelper {
 	public String getRequestAsString(IFOBSWebServicePacket request) throws Exception {
 		Document doc = marshalToDocument(request);
 		Element element = (Element) doc.getElementsByTagName("iFOBSWebServicePacket").item(0);
-
+		renameNamespaceRecursive(element, null);
 		return transformXMLToString(element);
 	}
 
 	private String transformXMLToString(Element element) throws TransformerException {
 		Transformer transformer = TransformerFactory.newInstance().newTransformer();
+		transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+		transformer.setOutputProperty(OutputKeys.STANDALONE, "yes");
 		transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
 
 		StringWriter sw = new StringWriter();
@@ -74,30 +72,43 @@ public class XMLAndMarshallerHelper {
 	}
 
 	//Строим хмл и преобразовываем в строку
-	public String getModifiyedResponseAsXML(String response, String responseParamType) throws Exception {
+	public String geResponseWithParamType(String response, String responseParamType) throws Exception {
 		DocumentBuilder builder = createDocumentBuilder();
 		Document doc = builder.parse(new InputSource(new StringReader(response)));
-		Element element = (Element) doc.getElementsByTagName("Response").item(0);
-
-		Attr attr = doc.createAttribute("xmlns");
-		attr.setValue("http://cs.com.ua/callingService/");
-		element.setAttributeNode(attr);
 
 		Element elementParameters = (Element) doc.getElementsByTagName("Parameters").item(0);
 		if(elementParameters != null){
 			Attr attrParam = doc.createAttribute("xsi:type");
 			attrParam.setValue(responseParamType);
-			element.setAttributeNode(attrParam);
+			elementParameters.setAttributeNode(attrParam);
 
 			Attr attrParam2 = doc.createAttribute("xmlns:xsi");
 			attrParam2.setValue("http://www.w3.org/2001/XMLSchema-instance");
-			element.setAttributeNode(attrParam2);
+			elementParameters.setAttributeNode(attrParam2);
 		}
+
+		Element element = (Element) doc.getElementsByTagName("Response").item(0);
+		Attr attr = doc.createAttribute("xmlns");
+		attr.setValue("http://cs.com.ua/callingService/");
+		element.setAttributeNodeNS(attr);
+
 		return transformXMLToString(doc.getDocumentElement());
 
 	}
 	private DocumentBuilder createDocumentBuilder() throws ParserConfigurationException {
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		dbf.setNamespaceAware(false);
 		return dbf.newDocumentBuilder();
+	}
+
+	private void renameNamespaceRecursive(Node node, String namespace) {
+		Document document = node.getOwnerDocument();
+		if (node.getNodeType() == Node.ELEMENT_NODE) {
+			document.renameNode(node, namespace, node.getNodeName());
+		}
+		NodeList list = node.getChildNodes();
+		for (int i = 0; i < list.getLength(); ++i) {
+			renameNamespaceRecursive(list.item(i), namespace);
+		}
 	}
 }

@@ -61,6 +61,12 @@ public class UkrMobWSCallingService {
 		return call(request, responseParameterValue);
 	}
 
+	private String getResponseParametersType(CardListRequest request) {
+		String responseParameterValue = request.getIFOBSWebServicePacket().getPacketBody().getCallingService().getParameters().getValue().getClass().getName();
+		responseParameterValue = responseParameterValue.substring(responseParameterValue.indexOf("request.") + "request.".length());
+		return responseParameterValue;
+	}
+
 	private Response call(IFOBSWebServicePacket request, String responseParameterValue) {
 		Response callingResponse = new Response();
 		try {
@@ -78,7 +84,7 @@ public class UkrMobWSCallingService {
 
 			decodedResponse = zip.DecompressGZIP(Base64.decode(response.getBytes(JAVA_ENCODING)));
 
-			decodedResponse = xmlAndMarshallerHelper.getModifiyedResponseAsXML(decodedResponse, responseParameterValue);
+			decodedResponse = xmlAndMarshallerHelper.geResponseWithParamType(decodedResponse, responseParameterValue);
 
 			callingResponse = (Response) xmlAndMarshallerHelper.unmarshal(decodedResponse);
 		} catch (Exception e) {
