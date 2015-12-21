@@ -1,8 +1,6 @@
 
 package ua.com.cs.model.wm.request;
 
-import java.util.ArrayList;
-import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -19,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;extension base="{http://cs.com.ua/callingService/}ParametersRequestType">
  *       &lt;sequence>
- *         &lt;element name="CardPictureInfo" type="{http://cs.com.ua/callingService/}CardPictureInfo" maxOccurs="unbounded"/>
+ *         &lt;element name="CardPictureInfoList" type="{http://cs.com.ua/callingService/}CardPictureInfoList"/>
  *       &lt;/sequence>
  *     &lt;/extension>
  *   &lt;/complexContent>
@@ -30,42 +28,37 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CardPictureListRequestParametersType", propOrder = {
-    "cardPictureInfo"
+    "cardPictureInfoList"
 })
 public class CardPictureListRequestParametersType
     extends ParametersRequestType
 {
 
-    @XmlElement(name = "CardPictureInfo", required = true)
-    protected List<CardPictureInfo> cardPictureInfo;
+    @XmlElement(name = "CardPictureInfoList", required = true)
+    protected CardPictureInfoList cardPictureInfoList;
 
     /**
-     * Gets the value of the cardPictureInfo property.
+     * Gets the value of the cardPictureInfoList property.
      * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the cardPictureInfo property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getCardPictureInfo().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link CardPictureInfo }
-     * 
-     * 
+     * @return
+     *     possible object is
+     *     {@link CardPictureInfoList }
+     *     
      */
-    public List<CardPictureInfo> getCardPictureInfo() {
-        if (cardPictureInfo == null) {
-            cardPictureInfo = new ArrayList<CardPictureInfo>();
-        }
-        return this.cardPictureInfo;
+    public CardPictureInfoList getCardPictureInfoList() {
+        return cardPictureInfoList;
+    }
+
+    /**
+     * Sets the value of the cardPictureInfoList property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link CardPictureInfoList }
+     *     
+     */
+    public void setCardPictureInfoList(CardPictureInfoList value) {
+        this.cardPictureInfoList = value;
     }
 
 }

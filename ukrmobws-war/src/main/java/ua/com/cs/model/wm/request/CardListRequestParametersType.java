@@ -17,10 +17,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;extension base="{http://cs.com.ua/callingService/}ParametersRequestType">
  *       &lt;sequence>
- *         &lt;element name="LastTxId" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="MaxTxCount" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="NeedOnlineBalance" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="ByState" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="LastTxId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="MaxTxCount" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="NeedOnlineBalance" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="ByState" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/extension>
  *   &lt;/complexContent>
@@ -40,13 +40,13 @@ public class CardListRequestParametersType
     extends ParametersRequestType
 {
 
-    @XmlElement(name = "LastTxId", required = true)
+    @XmlElement(name = "LastTxId")
     protected String lastTxId;
-    @XmlElement(name = "MaxTxCount", required = true)
+    @XmlElement(name = "MaxTxCount")
     protected String maxTxCount;
-    @XmlElement(name = "NeedOnlineBalance", required = true)
+    @XmlElement(name = "NeedOnlineBalance")
     protected String needOnlineBalance;
-    @XmlElement(name = "ByState", required = true)
+    @XmlElement(name = "ByState")
     protected String byState;
 
     /**

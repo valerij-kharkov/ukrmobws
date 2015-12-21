@@ -15,10 +15,10 @@
 
     <!-- <xsd:element name="CardListResponse">-->
 
-    <xsd:element name="ParametersResponse" type="ParametersResponseType"/>
-    <xsd:element name="CardListResponseParameters" substitutionGroup="ParametersResponse"
+    <xsd:element name="ResponseParameters" type="ParametersResponseType"/>
+    <xsd:element name="CardListResponseParameters" substitutionGroup="ResponseParameters"
                  type="CardListResponseParametersType"/>
-    <xsd:element name="CardPictureListResponseParameters" substitutionGroup="ParametersResponse"
+    <xsd:element name="CardPictureListResponseParameters" substitutionGroup="ResponseParameters"
                  type="CardPictureListResponseParametersType"/>
 
     <xsd:complexType name="CardListResponseParametersType">
@@ -110,19 +110,25 @@
         <xsd:complexContent>
             <xsd:extension base="ParametersResponseType">
                 <xsd:sequence>
-                    <xsd:element name="CardPictureInfo" type="CardPictureInfoList" maxOccurs="unbounded"/>
+                    <xsd:element name="CardPictureInfoList" type="CardPictureInfoListResponse" minOccurs="1" maxOccurs="1"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
 
-    <xsd:complexType name="CardPictureInfoList">
+    <xsd:complexType name="CardPictureInfoListResponse">
         <xsd:sequence>
-            <xsd:element name="CardId" type="xsd:string"/>
-            <xsd:element name="Version" type="xsd:string"/>
+            <xsd:element name="CardPictureInfo" maxOccurs="unbounded" minOccurs="0">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element type="xsd:string" name="CardId"/>
+                        <xsd:element type="xsd:base64Binary" name="Picture"/>
+                        <xsd:element type="xsd:decimal" name="Version"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
         </xsd:sequence>
     </xsd:complexType>
-
 
     <xsd:complexType name="ParametersResponseType" abstract="true"/>
 

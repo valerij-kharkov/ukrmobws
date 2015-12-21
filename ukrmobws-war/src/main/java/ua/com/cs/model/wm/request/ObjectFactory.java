@@ -25,7 +25,7 @@ import javax.xml.namespace.QName;
 public class ObjectFactory {
 
     private final static QName _Parameters_QNAME = new QName("http://cs.com.ua/callingService/", "Parameters");
-    private final static QName _CardRequestParameters_QNAME = new QName("http://cs.com.ua/callingService/", "CardRequestParameters");
+    private final static QName _CardPictureListRequestParameters_QNAME = new QName("http://cs.com.ua/callingService/", "CardPictureListRequestParameters");
     private final static QName _CardListRequestParameters_QNAME = new QName("http://cs.com.ua/callingService/", "CardListRequestParameters");
 
     /**
@@ -33,6 +33,14 @@ public class ObjectFactory {
      * 
      */
     public ObjectFactory() {
+    }
+
+    /**
+     * Create an instance of {@link CardPictureInfoList }
+     * 
+     */
+    public CardPictureInfoList createCardPictureInfoList() {
+        return new CardPictureInfoList();
     }
 
     /**
@@ -52,11 +60,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CardListRequest }
+     * Create an instance of {@link CardPictureListRequest }
      * 
      */
-    public CardListRequest createCardListRequest() {
-        return new CardListRequest();
+    public CardPictureListRequest createCardPictureListRequest() {
+        return new CardPictureListRequest();
     }
 
     /**
@@ -73,6 +81,14 @@ public class ObjectFactory {
      */
     public IFOBSWebServicePacketType createIFOBSWebServicePacketType() {
         return new IFOBSWebServicePacketType();
+    }
+
+    /**
+     * Create an instance of {@link CardListRequest }
+     * 
+     */
+    public CardListRequest createCardListRequest() {
+        return new CardListRequest();
     }
 
     /**
@@ -140,19 +156,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CardPictureInfo }
-     * 
-     */
-    public CardPictureInfo createCardPictureInfo() {
-        return new CardPictureInfo();
-    }
-
-    /**
      * Create an instance of {@link PacketHeaderType }
      * 
      */
     public PacketHeaderType createPacketHeaderType() {
         return new PacketHeaderType();
+    }
+
+    /**
+     * Create an instance of {@link CardPictureInfoList.CardPictureInfo }
+     * 
+     */
+    public CardPictureInfoList.CardPictureInfo createCardPictureInfoListCardPictureInfo() {
+        return new CardPictureInfoList.CardPictureInfo();
     }
 
     /**
@@ -168,9 +184,9 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link CardPictureListRequestParametersType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://cs.com.ua/callingService/", name = "CardRequestParameters", substitutionHeadNamespace = "http://cs.com.ua/callingService/", substitutionHeadName = "Parameters")
-    public JAXBElement<CardPictureListRequestParametersType> createCardRequestParameters(CardPictureListRequestParametersType value) {
-        return new JAXBElement<CardPictureListRequestParametersType>(_CardRequestParameters_QNAME, CardPictureListRequestParametersType.class, null, value);
+    @XmlElementDecl(namespace = "http://cs.com.ua/callingService/", name = "CardPictureListRequestParameters", substitutionHeadNamespace = "http://cs.com.ua/callingService/", substitutionHeadName = "Parameters")
+    public JAXBElement<CardPictureListRequestParametersType> createCardPictureListRequestParameters(CardPictureListRequestParametersType value) {
+        return new JAXBElement<CardPictureListRequestParametersType>(_CardPictureListRequestParameters_QNAME, CardPictureListRequestParametersType.class, null, value);
     }
 
     /**

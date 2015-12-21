@@ -22,23 +22,32 @@
                 </xsd:extension>
             </xsd:complexContent>
         </xsd:complexType>
+    </xsd:element>
 
+    <xsd:element name="CardPictureListRequest">
+        <xsd:complexType>
+            <xsd:complexContent>
+                <xsd:extension base="iFOBSWebServicePacket">
+                    <xsd:sequence/>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
     </xsd:element>
 
     <xsd:element name="Parameters" type="ParametersRequestType"/>
     <xsd:element name="CardListRequestParameters" substitutionGroup="Parameters"
                  type="CardListRequestParametersType"/>
-    <xsd:element name="CardRequestParameters" substitutionGroup="Parameters"
+    <xsd:element name="CardPictureListRequestParameters" substitutionGroup="Parameters"
                  type="CardPictureListRequestParametersType"/>
 
     <xsd:complexType name="CardListRequestParametersType">
         <xsd:complexContent>
             <xsd:extension base="ParametersRequestType">
                 <xsd:sequence>
-                    <xsd:element name="LastTxId" type="xsd:string"/>
-                    <xsd:element name="MaxTxCount" type="xsd:string"/>
-                    <xsd:element name="NeedOnlineBalance" type="xsd:string"/>
-                    <xsd:element name="ByState" type="xsd:string"/>
+                    <xsd:element name="LastTxId" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="MaxTxCount" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="NeedOnlineBalance" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="ByState" type="xsd:string" minOccurs="0"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -48,16 +57,22 @@
         <xsd:complexContent>
             <xsd:extension base="ParametersRequestType">
                 <xsd:sequence>
-                    <xsd:element name="CardPictureInfo" type="CardPictureInfo" maxOccurs="unbounded"/>
+                    <xsd:element name="CardPictureInfoList" type="CardPictureInfoList" minOccurs="1" maxOccurs="1"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
 
-    <xsd:complexType name="CardPictureInfo">
+    <xsd:complexType name="CardPictureInfoList">
         <xsd:sequence>
-            <xsd:element name="CardId" type="xsd:string"/>
-            <xsd:element name="Version" type="xsd:string"/>
+            <xsd:element name="CardPictureInfo" maxOccurs="unbounded" minOccurs="0">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element type="xsd:string" name="CardId"/>
+                        <xsd:element type="xsd:byte" name="Version"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
         </xsd:sequence>
     </xsd:complexType>
 

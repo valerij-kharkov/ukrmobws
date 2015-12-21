@@ -60,7 +60,6 @@ public class XMLAndMarshallerHelper {
 	private String transformXMLToString(Element element) throws TransformerException {
 		Transformer transformer = TransformerFactory.newInstance().newTransformer();
 		transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-		transformer.setOutputProperty(OutputKeys.STANDALONE, "yes");
 		transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
 
 		StringWriter sw = new StringWriter();
@@ -95,6 +94,7 @@ public class XMLAndMarshallerHelper {
 		return transformXMLToString(doc.getDocumentElement());
 
 	}
+
 	private DocumentBuilder createDocumentBuilder() throws ParserConfigurationException {
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		dbf.setNamespaceAware(false);
