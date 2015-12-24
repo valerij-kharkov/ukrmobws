@@ -8,8 +8,9 @@ import ua.com.cs.helpers.XMLAndMarshallerHelper;
 import ua.com.cs.helpers.ZipHelper;
 import ua.com.cs.model.ifobswm.WMServiceBean;
 import ua.com.cs.model.ifobswm.WMServiceBeanService;
-import ua.com.cs.model.wm.request.CardListRequest;
+import ua.com.cs.model.wm.request.CallingRequest;
 import ua.com.cs.model.wm.request.IFOBSWebServicePacket;
+import ua.com.cs.model.wm.response.CallingResponse;
 import ua.com.cs.model.wm.response.Response;
 
 import java.net.URL;
@@ -28,12 +29,7 @@ public class CallingService {
 	@Autowired
 	private XMLAndMarshallerHelper xmlAndMarshallerHelper;
 
-	protected String getResponseParametersType(CardListRequest request) {
-		String responseParameterValue = request.getIFOBSWebServicePacket().getPacketBody().getCallingService().getParameters().getValue().getClass().getName();
-		responseParameterValue = responseParameterValue.substring(responseParameterValue.indexOf("request.") + "request.".length());
-		return responseParameterValue;
-	}
-
+	//Использовать для вызова мобильных сервисов, чтобы получить в ответе корректный XML для тестирования
 	protected Response call(IFOBSWebServicePacket request, String responseParameterValue) {
 		Response callingResponse = new Response();
 		try {
@@ -49,15 +45,44 @@ public class CallingService {
 			WMServiceBean wmServiceBean = service.getWMServiceBeanPort();
 			String response = wmServiceBean.callService(encodedRequest);
 
-			decodedResponse = zip.DecompressGZIP(Base64.decode(response.getBytes(JAVA_ENCODING)));
-
-			decodedResponse = xmlAndMarshallerHelper.geResponseWithParamType(decodedResponse, responseParameterValue);
-
-			callingResponse = (Response) xmlAndMarshallerHelper.unmarshal(decodedResponse);
+			if (response == null) {
+				throw new RuntimeException("Error connection to ifobs");
+			} else {
+				decodedResponse = zip.DecompressGZIP(Base64.decode(response.getBytes(JAVA_ENCODING)));
+				decodedResponse = xmlAndMarshallerHelper.geResponseWithParamType(decodedResponse, responseParameterValue);
+				callingResponse = (Response) xmlAndMarshallerHelper.unmarshal(decodedResponse);
+			}
 		} catch (Exception e) {
 			logger.error("Error during call ifobs ukrainian WM", e);
 		}
 
+		return callingResponse;
+	}
+
+	//Использовать для вызова мобильных сервисов по-старинке - через строку,
+	protected CallingResponse call(CallingRequest request) {
+		CallingResponse callingResponse = new CallingResponse();
+		try {
+			WMServiceBeanService service = new WMServiceBeanService(new URL(wsdlUrl));
+			WMServiceBean wmServiceBean = service.getWMServiceBeanPort();
+
+			String encodedRequest;
+			String decodedResponse;
+
+			ZipHelper zip = new ZipHelper(JAVA_ENCODING);
+			encodedRequest = new String(Base64.encode(zip.CompressGZIP(request.getRequest())), JAVA_ENCODING);
+
+			String response = wmServiceBean.callService(encodedRequest);
+
+			if (response == null) {
+				throw new RuntimeException("Error connection to ifobs");
+			} else {
+				decodedResponse = zip.DecompressGZIP(Base64.decode(response.getBytes(JAVA_ENCODING)));
+				callingResponse.setResponse(decodedResponse);
+			}
+		} catch (Exception e) {
+			logger.error("Error during call ifobs ukrainian WM", e);
+		}
 		return callingResponse;
 	}
 

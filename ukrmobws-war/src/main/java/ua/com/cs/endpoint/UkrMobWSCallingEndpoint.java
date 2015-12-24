@@ -25,8 +25,8 @@ public class UkrMobWSCallingEndpoint {
 
 	@PayloadRoot(localPart = "CallingRequest", namespace = NAMESPACE)
 	@ResponsePayload
-	public CallingResponse callStringXML(@RequestPayload CallingRequest request) {
-		return service.callStringXML(request);
+	public CallingResponse callWithString(@RequestPayload CallingRequest request) {
+		return service.callWithString(request);
 	}
 
 	@PayloadRoot(localPart = "CardListRequest", namespace = NAMESPACE)
