@@ -1,4 +1,3 @@
-
 package ua.com.cs.model.wm.response;
 
 import javax.xml.bind.JAXBElement;
@@ -27,6 +26,7 @@ public class ObjectFactory {
     private final static QName _ResponseParameters_QNAME = new QName("http://cs.com.ua/callingService/", "ResponseParameters");
     private final static QName _CardPictureListResponseParameters_QNAME = new QName("http://cs.com.ua/callingService/", "CardPictureListResponseParameters");
     private final static QName _CardListResponseParameters_QNAME = new QName("http://cs.com.ua/callingService/", "CardListResponseParameters");
+    private final static QName _GetDealOperationPaymentDetailsResponseParameters_QNAME = new QName("http://cs.com.ua/callingService/", "GetDealOperationPaymentDetailsResponseParameters");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: ua.com.cs.model.wm.response
@@ -81,6 +81,14 @@ public class ObjectFactory {
      */
     public CardPictureListResponseParametersType createCardPictureListResponseParametersType() {
         return new CardPictureListResponseParametersType();
+    }
+
+    /**
+     * Create an instance of {@link GetDealOperationPaymentDetailsResponseParametersType }
+     * 
+     */
+    public GetDealOperationPaymentDetailsResponseParametersType createGetDealOperationPaymentDetailsResponseParametersType() {
+        return new GetDealOperationPaymentDetailsResponseParametersType();
     }
 
     /**
@@ -156,6 +164,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://cs.com.ua/callingService/", name = "CardListResponseParameters", substitutionHeadNamespace = "http://cs.com.ua/callingService/", substitutionHeadName = "ResponseParameters")
     public JAXBElement<CardListResponseParametersType> createCardListResponseParameters(CardListResponseParametersType value) {
         return new JAXBElement<CardListResponseParametersType>(_CardListResponseParameters_QNAME, CardListResponseParametersType.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetDealOperationPaymentDetailsResponseParametersType }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://cs.com.ua/callingService/", name = "GetDealOperationPaymentDetailsResponseParameters", substitutionHeadNamespace = "http://cs.com.ua/callingService/", substitutionHeadName = "ResponseParameters")
+    public JAXBElement<GetDealOperationPaymentDetailsResponseParametersType> createGetDealOperationPaymentDetailsResponseParameters(GetDealOperationPaymentDetailsResponseParametersType value) {
+        return new JAXBElement<GetDealOperationPaymentDetailsResponseParametersType>(_GetDealOperationPaymentDetailsResponseParameters_QNAME, GetDealOperationPaymentDetailsResponseParametersType.class, null, value);
     }
 
 }

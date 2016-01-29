@@ -1,4 +1,3 @@
-
 package ua.com.cs.model.wm.request;
 
 import javax.xml.bind.JAXBElement;
@@ -25,6 +24,7 @@ import javax.xml.namespace.QName;
 public class ObjectFactory {
 
     private final static QName _Parameters_QNAME = new QName("http://cs.com.ua/callingService/", "Parameters");
+    private final static QName _GetDealOperationPaymentDetailsRequestParameters_QNAME = new QName("http://cs.com.ua/callingService/", "GetDealOperationPaymentDetailsRequestParameters");
     private final static QName _CardPictureListRequestParameters_QNAME = new QName("http://cs.com.ua/callingService/", "CardPictureListRequestParameters");
     private final static QName _CardListRequestParameters_QNAME = new QName("http://cs.com.ua/callingService/", "CardListRequestParameters");
 
@@ -52,19 +52,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CardPictureListRequestParametersType }
+     * Create an instance of {@link GetDealOperationPaymentDetailsRequestParametersType }
      * 
      */
-    public CardPictureListRequestParametersType createCardPictureListRequestParametersType() {
-        return new CardPictureListRequestParametersType();
+    public GetDealOperationPaymentDetailsRequestParametersType createGetDealOperationPaymentDetailsRequestParametersType() {
+        return new GetDealOperationPaymentDetailsRequestParametersType();
     }
 
     /**
-     * Create an instance of {@link CardPictureListRequest }
+     * Create an instance of {@link GetDealOperationPaymentDetailsRequest }
      * 
      */
-    public CardPictureListRequest createCardPictureListRequest() {
-        return new CardPictureListRequest();
+    public GetDealOperationPaymentDetailsRequest createGetDealOperationPaymentDetailsRequest() {
+        return new GetDealOperationPaymentDetailsRequest();
     }
 
     /**
@@ -81,6 +81,22 @@ public class ObjectFactory {
      */
     public IFOBSWebServicePacketType createIFOBSWebServicePacketType() {
         return new IFOBSWebServicePacketType();
+    }
+
+    /**
+     * Create an instance of {@link CardPictureListRequestParametersType }
+     * 
+     */
+    public CardPictureListRequestParametersType createCardPictureListRequestParametersType() {
+        return new CardPictureListRequestParametersType();
+    }
+
+    /**
+     * Create an instance of {@link CardPictureListRequest }
+     * 
+     */
+    public CardPictureListRequest createCardPictureListRequest() {
+        return new CardPictureListRequest();
     }
 
     /**
@@ -186,6 +202,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://cs.com.ua/callingService/", name = "Parameters")
     public JAXBElement<ParametersRequestType> createParameters(ParametersRequestType value) {
         return new JAXBElement<ParametersRequestType>(_Parameters_QNAME, ParametersRequestType.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetDealOperationPaymentDetailsRequestParametersType }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://cs.com.ua/callingService/", name = "GetDealOperationPaymentDetailsRequestParameters", substitutionHeadNamespace = "http://cs.com.ua/callingService/", substitutionHeadName = "Parameters")
+    public JAXBElement<GetDealOperationPaymentDetailsRequestParametersType> createGetDealOperationPaymentDetailsRequestParameters(GetDealOperationPaymentDetailsRequestParametersType value) {
+        return new JAXBElement<GetDealOperationPaymentDetailsRequestParametersType>(_GetDealOperationPaymentDetailsRequestParameters_QNAME, GetDealOperationPaymentDetailsRequestParametersType.class, null, value);
     }
 
     /**

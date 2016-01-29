@@ -1,4 +1,3 @@
-
 package ua.com.cs.model.wm.request;
 
 import javax.xml.bind.JAXBElement;
@@ -47,6 +46,9 @@ public class CallingServiceType {
      *     possible object is
      *     {@link JAXBElement }{@code <}{@link ParametersRequestType }{@code >}
      *     {@link JAXBElement }{@code <}{@link CardListRequestParametersType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link ParametersRequestType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link GetDealOperationPaymentDetailsRequestParametersType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link CardPictureListRequestParametersType }{@code >}
      *     {@link JAXBElement }{@code <}{@link CardPictureListRequestParametersType }{@code >}
      *     
      */
@@ -61,6 +63,9 @@ public class CallingServiceType {
      *     allowed object is
      *     {@link JAXBElement }{@code <}{@link ParametersRequestType }{@code >}
      *     {@link JAXBElement }{@code <}{@link CardListRequestParametersType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link ParametersRequestType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link GetDealOperationPaymentDetailsRequestParametersType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link CardPictureListRequestParametersType }{@code >}
      *     {@link JAXBElement }{@code <}{@link CardPictureListRequestParametersType }{@code >}
      *     
      */

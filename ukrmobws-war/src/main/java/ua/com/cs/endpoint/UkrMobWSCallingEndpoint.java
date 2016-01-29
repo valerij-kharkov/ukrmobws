@@ -8,6 +8,7 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 import ua.com.cs.model.wm.request.CallingRequest;
 import ua.com.cs.model.wm.request.CardListRequest;
 import ua.com.cs.model.wm.request.CardPictureListRequest;
+import ua.com.cs.model.wm.request.GetDealOperationPaymentDetailsRequest;
 import ua.com.cs.model.wm.response.CallingResponse;
 import ua.com.cs.model.wm.response.Response;
 import ua.com.cs.services.UkrMobWSCallingService;
@@ -39,5 +40,11 @@ public class UkrMobWSCallingEndpoint {
 	@ResponsePayload
 	public Response callCardPictureList(@RequestPayload CardPictureListRequest request) {
 		return service.callCardPictureList(request);
+	}
+
+	@PayloadRoot(localPart = "GetDealOperationPaymentDetailsRequest", namespace = NAMESPACE)
+	@ResponsePayload
+	public Response callCardPictureList(@RequestPayload GetDealOperationPaymentDetailsRequest request) {
+		return service.callGetDealOperationPaymentDetails(request);
 	}
 }
