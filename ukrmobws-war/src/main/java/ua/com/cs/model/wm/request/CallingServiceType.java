@@ -45,9 +45,10 @@ public class CallingServiceType {
      * 
      * @return
      *     possible object is
-     *     {@link JAXBElement }{@code <}{@link ParametersRequestType }{@code >}
      *     {@link JAXBElement }{@code <}{@link CardListRequestParametersType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link GetDealOperationPaymentDetailsRequestParametersType }{@code >}
      *     {@link JAXBElement }{@code <}{@link CardPictureListRequestParametersType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link ParametersRequestType }{@code >}
      *     
      */
     public JAXBElement<? extends ParametersRequestType> getParameters() {
@@ -59,9 +60,10 @@ public class CallingServiceType {
      * 
      * @param value
      *     allowed object is
-     *     {@link JAXBElement }{@code <}{@link ParametersRequestType }{@code >}
      *     {@link JAXBElement }{@code <}{@link CardListRequestParametersType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link GetDealOperationPaymentDetailsRequestParametersType }{@code >}
      *     {@link JAXBElement }{@code <}{@link CardPictureListRequestParametersType }{@code >}
+     *     {@link JAXBElement }{@code <}{@link ParametersRequestType }{@code >}
      *     
      */
     public void setParameters(JAXBElement<? extends ParametersRequestType> value) {

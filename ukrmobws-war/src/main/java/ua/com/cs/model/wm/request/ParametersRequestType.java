@@ -26,6 +26,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ParametersRequestType")
 @XmlSeeAlso({
+    GetDealOperationPaymentDetailsRequestParametersType.class,
     CardPictureListRequestParametersType.class,
     CardListRequestParametersType.class
 })

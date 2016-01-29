@@ -33,7 +33,8 @@ import javax.xml.bind.annotation.XmlType;
 })
 @XmlSeeAlso({
     CardListRequest.class,
-    CardPictureListRequest.class
+    CardPictureListRequest.class,
+    GetDealOperationPaymentDetailsRequest.class
 })
 public class IFOBSWebServicePacket {
 

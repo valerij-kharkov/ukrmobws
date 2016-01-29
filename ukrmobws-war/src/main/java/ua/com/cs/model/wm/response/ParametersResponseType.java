@@ -27,6 +27,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "ParametersResponseType")
 @XmlSeeAlso({
     CardPictureListResponseParametersType.class,
+    GetDealOperationPaymentDetailsResponseParametersType.class,
     CardListResponseParametersType.class
 })
 public abstract class ParametersResponseType {
