@@ -1,6 +1,7 @@
 
 package ua.com.cs.model.wm.request;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -25,7 +26,7 @@ import javax.xml.bind.annotation.XmlType;
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
  *                   &lt;element name="CardId" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                   &lt;element name="Version" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+ *                   &lt;element name="Version" type="{http://www.w3.org/2001/XMLSchema}decimal"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -89,7 +90,7 @@ public class CardPictureInfoList {
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
      *         &lt;element name="CardId" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *         &lt;element name="Version" type="{http://www.w3.org/2001/XMLSchema}byte"/>
+     *         &lt;element name="Version" type="{http://www.w3.org/2001/XMLSchema}decimal"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>
@@ -107,8 +108,8 @@ public class CardPictureInfoList {
 
         @XmlElement(name = "CardId", required = true)
         protected String cardId;
-        @XmlElement(name = "Version")
-        protected byte version;
+        @XmlElement(name = "Version", required = true)
+        protected BigDecimal version;
 
         /**
          * Gets the value of the cardId property.
@@ -137,16 +138,24 @@ public class CardPictureInfoList {
         /**
          * Gets the value of the version property.
          * 
+         * @return
+         *     possible object is
+         *     {@link BigDecimal }
+         *     
          */
-        public byte getVersion() {
+        public BigDecimal getVersion() {
             return version;
         }
 
         /**
          * Sets the value of the version property.
          * 
+         * @param value
+         *     allowed object is
+         *     {@link BigDecimal }
+         *     
          */
-        public void setVersion(byte value) {
+        public void setVersion(BigDecimal value) {
             this.version = value;
         }
 

@@ -59,7 +59,7 @@ public class CallingService {
 		return callingResponse;
 	}
 
-	//Использовать для вызова мобильных сервисов по-старинке - через строку,
+	//Использовать для вызова мобильных сервисов по-старинке - через строку
 	protected CallingResponse call(CallingRequest request) {
 		CallingResponse callingResponse = new CallingResponse();
 		try {
