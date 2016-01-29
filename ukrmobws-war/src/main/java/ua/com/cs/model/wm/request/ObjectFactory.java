@@ -156,6 +156,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link LocaleType }
+     * 
+     */
+    public LocaleType createLocaleType() {
+        return new LocaleType();
+    }
+
+    /**
      * Create an instance of {@link PacketHeaderType }
      * 
      */

@@ -73,9 +73,9 @@ public class WMServiceBeanService
      * @return
      *     returns WMServiceBean
      */
-    @WebEndpoint(name = "WMServiceBeanPort")
+    @WebEndpoint(name = "WMService")
     public WMServiceBean getWMServiceBeanPort() {
-        return super.getPort(new QName("http://wm.webservices.ifobs.cs.com/", "WMServiceBeanPort"), WMServiceBean.class);
+        return super.getPort(new QName("http://wm.webservices.ifobs.cs.com/", "WMService"), WMServiceBean.class);
     }
 
     /**

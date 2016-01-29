@@ -4,6 +4,43 @@
         xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         elementFormDefault="qualified">
 
+    <xsd:element name="Response">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="SenderInfo">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="SessionInfo">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute type="xsd:string" name="id"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="StatusBlock">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element type="xsd:string" name="Status"/>
+                            <xsd:element type="xsd:string" name="ErrorCode"/>
+                            <xsd:element type="xsd:string" name="ErrorText"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="Parameters" type="ParametersResponseType"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <!--Define element Parameters as abstract-->
+    <xsd:element name="ResponseParameters" type="ParametersResponseType"/>
+    <xsd:complexType name="ParametersResponseType" abstract="true"/>
+
+    <!--CallingResponse-->
     <xsd:element name="CallingResponse">
         <xsd:complexType>
             <xsd:sequence>
@@ -12,14 +49,12 @@
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
+    <!--end CallingResponse-->
 
-    <!-- <xsd:element name="CardListResponse">-->
 
-    <xsd:element name="ResponseParameters" type="ParametersResponseType"/>
+    <!--CardListResponseParameters-->
     <xsd:element name="CardListResponseParameters" substitutionGroup="ResponseParameters"
                  type="CardListResponseParametersType"/>
-    <xsd:element name="CardPictureListResponseParameters" substitutionGroup="ResponseParameters"
-                 type="CardPictureListResponseParametersType"/>
 
     <xsd:complexType name="CardListResponseParametersType">
         <xsd:complexContent>
@@ -105,6 +140,12 @@
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
+    <!--end CardListResponseParameters-->
+
+
+    <!--CardPictureListResponseParameters-->
+    <xsd:element name="CardPictureListResponseParameters" substitutionGroup="ResponseParameters"
+                 type="CardPictureListResponseParametersType"/>
 
     <xsd:complexType name="CardPictureListResponseParametersType">
         <xsd:complexContent>
@@ -129,39 +170,6 @@
             </xsd:element>
         </xsd:sequence>
     </xsd:complexType>
-
-    <xsd:complexType name="ParametersResponseType" abstract="true"/>
-
-    <xsd:element name="Response">
-        <xsd:complexType>
-            <xsd:sequence>
-                <xsd:element name="SenderInfo">
-                    <xsd:complexType>
-                        <xsd:sequence>
-                            <xsd:element name="SessionInfo">
-                                <xsd:complexType>
-                                    <xsd:simpleContent>
-                                        <xsd:extension base="xsd:string">
-                                            <xsd:attribute type="xsd:string" name="id"/>
-                                        </xsd:extension>
-                                    </xsd:simpleContent>
-                                </xsd:complexType>
-                            </xsd:element>
-                        </xsd:sequence>
-                    </xsd:complexType>
-                </xsd:element>
-                <xsd:element name="StatusBlock">
-                    <xsd:complexType>
-                        <xsd:sequence>
-                            <xsd:element type="xsd:string" name="Status"/>
-                            <xsd:element type="xsd:string" name="ErrorCode"/>
-                            <xsd:element type="xsd:string" name="ErrorText"/>
-                        </xsd:sequence>
-                    </xsd:complexType>
-                </xsd:element>
-                <xsd:element name="Parameters" type="ParametersResponseType"/>
-            </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    <!--end CardPictureListResponseParameters-->
 
 </xsd:schema>

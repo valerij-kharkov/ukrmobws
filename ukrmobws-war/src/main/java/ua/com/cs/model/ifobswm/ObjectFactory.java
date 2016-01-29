@@ -25,7 +25,7 @@ import javax.xml.namespace.QName;
 public class ObjectFactory {
 
     private final static QName _CallService_QNAME = new QName("http://wm.webservices.ifobs.cs.com/", "callService");
-    private final static QName _CallServiceResponse_QNAME = new QName("http://ift.webservices.ifobs.cs.com/", "callServiceResponse");
+    private final static QName _CallServiceResponse_QNAME = new QName("http://wm.webservices.ifobs.cs.com/", "callServiceResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: ua.com.cs.model
@@ -63,7 +63,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link CallServiceResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://ift.webservices.ifobs.cs.com/", name = "callServiceResponse")
+    @XmlElementDecl(namespace = "http://wm.webservices.ifobs.cs.com/", name = "callServiceResponse")
     public JAXBElement<CallServiceResponse> createCallServiceResponse(CallServiceResponse value) {
         return new JAXBElement<CallServiceResponse>(_CallServiceResponse_QNAME, CallServiceResponse.class, null, value);
     }

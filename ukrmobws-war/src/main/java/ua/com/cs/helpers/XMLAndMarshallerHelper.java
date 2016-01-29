@@ -51,10 +51,19 @@ public class XMLAndMarshallerHelper {
 
 	//Строим хмл из обьекта и преобразовываем в строку
 	public String getRequestAsString(IFOBSWebServicePacket request) throws Exception {
+		String result = null;
 		Document doc = marshalToDocument(request);
-		Element element = (Element) doc.getElementsByTagName("iFOBSWebServicePacket").item(0);
-		renameNamespaceRecursive(element, null);
-		return transformXMLToString(element);
+		NodeList listiFOBSWebServicePacket = doc.getElementsByTagName("iFOBSWebServicePacket");
+		if (listiFOBSWebServicePacket != null && listiFOBSWebServicePacket.getLength() != 0) {
+			Element elementPacket = (Element) listiFOBSWebServicePacket.item(0);
+			if (elementPacket != null) {
+				renameNamespaceRecursive(elementPacket, null);
+				result = transformXMLToString(elementPacket);
+			} else {
+				throw new RuntimeException("Incorrect request format");
+			}
+		}
+		return result;
 	}
 
 	private String transformXMLToString(Element element) throws TransformerException {
@@ -75,24 +84,35 @@ public class XMLAndMarshallerHelper {
 		DocumentBuilder builder = createDocumentBuilder();
 		Document doc = builder.parse(new InputSource(new StringReader(response)));
 
-		Element elementParameters = (Element) doc.getElementsByTagName("Parameters").item(0);
-		if(elementParameters != null){
-			Attr attrParam = doc.createAttribute("xsi:type");
-			attrParam.setValue(responseParamType);
-			elementParameters.setAttributeNode(attrParam);
+		NodeList listParameters = doc.getElementsByTagName("Parameters");
+		if (listParameters != null && listParameters.getLength() != 0) {
+			Element elementParameters = (Element) listParameters.item(0);
+			if (elementParameters != null) {
+				Attr attrParam = doc.createAttribute("xsi:type");
+				attrParam.setValue(responseParamType);
+				elementParameters.setAttributeNode(attrParam);
 
-			Attr attrParam2 = doc.createAttribute("xmlns:xsi");
-			attrParam2.setValue("http://www.w3.org/2001/XMLSchema-instance");
-			elementParameters.setAttributeNode(attrParam2);
+				Attr attrParam2 = doc.createAttribute("xmlns:xsi");
+				attrParam2.setValue("http://www.w3.org/2001/XMLSchema-instance");
+				elementParameters.setAttributeNode(attrParam2);
+			} else {
+				throw new RuntimeException("Incorrect response format");
+			}
 		}
 
-		Element element = (Element) doc.getElementsByTagName("Response").item(0);
-		Attr attr = doc.createAttribute("xmlns");
-		attr.setValue("http://cs.com.ua/callingService/");
-		element.setAttributeNodeNS(attr);
+		NodeList listResponse = doc.getElementsByTagName("Response");
+		if (listResponse != null && listResponse.getLength() != 0) {
+			Element elementResponse = (Element) listResponse.item(0);
+			if (elementResponse != null) {
+				Attr attr = doc.createAttribute("xmlns");
+				attr.setValue("http://cs.com.ua/callingService/");
+				elementResponse.setAttributeNodeNS(attr);
+			} else {
+				throw new RuntimeException("Incorrect response format");
+			}
+		}
 
 		return transformXMLToString(doc.getDocumentElement());
-
 	}
 
 	private DocumentBuilder createDocumentBuilder() throws ParserConfigurationException {

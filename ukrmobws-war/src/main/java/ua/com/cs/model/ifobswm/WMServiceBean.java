@@ -30,8 +30,8 @@ public interface WMServiceBean {
     @WebMethod
     @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "callService", targetNamespace = "http://wm.webservices.ifobs.cs.com/", className = "ua.com.cs.model.ifobswm.CallService")
-    @ResponseWrapper(localName = "callServiceResponse", targetNamespace = "http://ift.webservices.ifobs.cs.com/", className = "ua.com.cs.model.ifobswm.CallServiceResponse")
-    @Action(input = "http://wm.webservices.ifobs.cs.com/WMServiceBean/callServiceRequest", output = "http://ift.webservices.ifobs.cs.com/WMServiceBean/callServiceResponse")
+    @ResponseWrapper(localName = "callServiceResponse", targetNamespace = "http://wm.webservices.ifobs.cs.com/", className = "ua.com.cs.model.ifobswm.CallServiceResponse")
+    @Action(input = "http://wm.webservices.ifobs.cs.com/WMServiceBean/callServiceRequest", output = "http://wm.webservices.ifobs.cs.com/WMServiceBean/callServiceResponse")
     public String callService(
         @WebParam(name = "sWebServiceXML", targetNamespace = "")
         String sWebServiceXML);
