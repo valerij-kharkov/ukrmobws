@@ -164,5 +164,31 @@
 
     <!-- end CardPictureListRequest-->
 
+    <!--GetDealOperationPaymentDetailsRequest-->
+    <xsd:element name="GetDealOperationPaymentDetailsRequest">
+        <xsd:complexType>
+            <xsd:complexContent>
+                <xsd:extension base="iFOBSWebServicePacket">
+                    <xsd:sequence/>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="GetDealOperationPaymentDetailsRequestParameters" substitutionGroup="Parameters"
+                 type="GetDealOperationPaymentDetailsRequestParametersType"/>
+
+    <xsd:complexType name="GetDealOperationPaymentDetailsRequestParametersType">
+        <xsd:complexContent>
+            <xsd:extension base="ParametersRequestType">
+                <xsd:sequence>
+                    <xsd:element name="DealId" type="xsd:decimal"/>
+                    <xsd:element name="BranchId" type="xsd:decimal"/>
+                    <xsd:element name="DealOperationId" type="xsd:decimal" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <!-- end GetDealOperationPaymentDetailsRequest-->
 
 </xsd:schema>

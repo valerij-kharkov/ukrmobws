@@ -172,4 +172,20 @@
     </xsd:complexType>
     <!--end CardPictureListResponseParameters-->
 
+    <!--GetDealOperationPaymentDetailsResponseParameters-->
+    <xsd:element name="GetDealOperationPaymentDetailsResponseParameters" substitutionGroup="ResponseParameters"
+                 type="GetDealOperationPaymentDetailsResponseParametersType"/>
+
+    <xsd:complexType name="GetDealOperationPaymentDetailsResponseParametersType">
+        <xsd:complexContent>
+            <xsd:extension base="ParametersResponseType">
+                <xsd:sequence>
+                    <xsd:element name="PaymentDetails" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <!--end GetDealOperationPaymentDetailsResponseParameters-->
+
 </xsd:schema>

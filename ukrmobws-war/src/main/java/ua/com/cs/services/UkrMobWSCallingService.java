@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 import ua.com.cs.model.wm.request.CallingRequest;
 import ua.com.cs.model.wm.request.CardListRequest;
 import ua.com.cs.model.wm.request.CardPictureListRequest;
+import ua.com.cs.model.wm.request.GetDealOperationPaymentDetailsRequest;
 import ua.com.cs.model.wm.response.CallingResponse;
 import ua.com.cs.model.wm.response.Response;
 
@@ -28,6 +29,12 @@ public class UkrMobWSCallingService extends CallingService{
 	//Для вызова сервиса CardPictureList
 	public Response callCardPictureList(CardPictureListRequest request) {
 		String responseParameterValue = "CardPictureListResponseParametersType";
+		return call(request, responseParameterValue);
+	}
+
+	//Для вызова сервиса GetDealOperationPaymentDetails
+	public Response callGetDealOperationPaymentDetails(GetDealOperationPaymentDetailsRequest request) {
+		String responseParameterValue = "GetDealOperationPaymentDetailsResponseParametersType";
 		return call(request, responseParameterValue);
 	}
 }
